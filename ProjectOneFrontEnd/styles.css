@@ -1,0 +1,262 @@
+/* #########################################
+GLOBALS
+ */
+
+ *{
+   margin: 0px;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+section {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+   margin-top: 15px;
+   margin-bottom: 15px;
+   padding: 10px;
+   border: none;
+   background-color: transparent;
+   font-size: 1em;
+   color: #fff;
+   transition: all 500ms;
+   text-shadow: 2px 2px 5px black;
+}
+
+ h1 {
+   padding: 20px;
+}
+
+row input {
+   margin: 5px;
+}
+
+/* #########################################
+SECTIONS
+ */
+
+
+.login {
+    background-color: #000;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.reimbursements {
+    background-color: #484;
+}
+
+.employee {
+   background-color: #484;
+}
+
+/* #########################################
+LOGIN PAGE
+ */
+
+ .login-welcome-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80%;
+    min-height: 35%;
+     font-size: 1.5em;
+     border-radius: 25px;
+     color: #fff;
+     background-color: #025;
+     text-shadow: 2px 2px 5px black;
+ }
+
+
+.animation {
+    animation: fadeIn 700ms ease-in-out 100ms 1 backwards;
+ }
+
+ .login-container {
+    width: 65%;
+    min-height: 35%;
+    height: auto;
+    bottom: 0%;
+    color: #FFF;
+    background-color: #052;
+    border-radius: 25px;
+ }
+
+ .login-details {
+   text-shadow: 2px 2px 5px black;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-size: 1.2em;
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+ }
+
+ .login-details div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+   
+div input {
+    text-align: start;
+ }
+
+ .credential-message {
+    animation: fadeIn 800ms ease-in-out 815ms 1 backwards;
+ }
+
+ #login-error-msg{
+   color: #000;
+   font-size: 0.8em;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   cursor: pointer;
+ }
+
+/* #########################################
+REIMBURSEMENTS - MANAGER
+ */
+
+.reimbursements div {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+
+ .reimbursements-welcome-message {
+    width: 100%;
+    min-height: 200px;
+    color: #fff;
+    background-color: #044;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px black;
+   }
+
+.manager-buttons button{
+   margin: 15px auto;
+}
+
+.reimbursement-details h2{
+    padding-bottom: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 5px black;
+ }
+
+ table {
+   text-align: center;
+   width: 90vw;
+   background-color: #330;
+   color: #fff;
+   padding: 20px;
+   border-radius: 15px;
+}
+
+#reimbursements-table thead th {
+   text-shadow: 2px 2px 5px black;
+}
+
+ /* #########################################
+REIMBURSEMENTS - EMPLOYEE
+ */
+
+ .employee .welcome-message {
+    border-radius: 10px;
+ }
+
+ .employee div {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+
+ .employee-welcome-message {
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    color: #fff;
+    background-color: #044;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px black;
+}
+
+.employee-buttons {
+   width: 75%;
+}
+
+.employee-buttons button{
+   color: #0f8;
+   margin: 15px auto;
+   text-shadow: 2px 2px 5px black;
+}
+
+h2.employee-reimbursement-header {
+   color: white;
+   text-shadow: 3px 5px 10px black;
+}
+
+.employee-add-reimbursement {
+   text-shadow: 2px 2px 5px black;
+   color: #fff;
+}
+
+.employee-add-reimbursement-inputs {
+   padding-top: 20px;
+}
+
+#employee-table {
+   background-color: #880;
+}
+
+#employee-table thead th {
+   text-shadow: 2px 2px 5px black;
+}
+
+ /* #########################################
+BUTTONS
+ */
+
+#login-btn:hover {
+    color: #0CB;
+    box-shadow: 1px 1px 20px 5px cadetblue;
+    border: none;
+    border-radius: 25px;
+}
+
+.manager-buttons button:hover{
+   color: #ddd;
+   box-shadow: 1px 1px 20px 5px #aaa;
+   border-radius: 25px;
+}
+
+.employee-buttons button:hover, #addRem:hover{
+   color: #ddd;
+   box-shadow: 1px 1px 10px 5px #aaa;
+   border-radius: 25px;
+}
+
+ /* #########################################
+KEYFRAMES
+ */
+
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
