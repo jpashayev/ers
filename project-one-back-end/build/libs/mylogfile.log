@@ -1,0 +1,243 @@
+30 03 2022 - 23:16:22.983 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+30 03 2022 - 23:16:22.995 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @235ms to org.eclipse.jetty.util.log.Slf4jLog
+30 03 2022 - 23:16:22.996 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+30 03 2022 - 23:16:23.006 [main] INFO  io.javalin.Javalin - You are running Javalin 4.3.0 (released January 13, 2022).
+30 03 2022 - 23:16:23.113 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+30 03 2022 - 23:16:23.113 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+30 03 2022 - 23:16:23.121 [main] INFO  io.javalin.Javalin - Javalin has stopped
+30 03 2022 - 23:17:17.382 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+30 03 2022 - 23:17:17.396 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @259ms to org.eclipse.jetty.util.log.Slf4jLog
+30 03 2022 - 23:17:17.397 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+30 03 2022 - 23:17:17.409 [main] INFO  io.javalin.Javalin - You are running Javalin 4.3.0 (released January 13, 2022).
+30 03 2022 - 23:17:17.531 [main] ERROR io.javalin.Javalin - Failed to start Javalin
+30 03 2022 - 23:17:17.531 [main] INFO  io.javalin.Javalin - Stopping Javalin ...
+30 03 2022 - 23:17:17.536 [main] INFO  io.javalin.Javalin - Javalin has stopped
+30 03 2022 - 23:17:50.385 [main] INFO  io.javalin.Javalin - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+30 03 2022 - 23:17:50.398 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @256ms to org.eclipse.jetty.util.log.Slf4jLog
+30 03 2022 - 23:17:50.398 [main] INFO  io.javalin.Javalin - Starting Javalin ...
+30 03 2022 - 23:17:50.411 [main] INFO  io.javalin.Javalin - You are running Javalin 4.3.0 (released January 13, 2022).
+30 03 2022 - 23:17:50.581 [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/
+30 03 2022 - 23:17:50.581 [main] INFO  io.javalin.Javalin - Javalin started in 183ms \o/
+30 03 2022 - 23:19:46.829 [JettyServerThreadPool-30] INFO  com.revature.main.Driver - 
+Login endpoint has been successfully invoked.
+Path: /login
+Login DTO val -> USER : userManager Pass : password
+Login user val : User{id=1, user='userManager', pass='null', firstName='null', lastName='null', email='BT@BT.bt', userRoleId=0, userRole='Manager'}
+IP Address : [0:0:0:0:0:0:0:1]
+User Agent: PostmanRuntime/7.29.0
+
+30 03 2022 - 23:19:46.927 [JettyServerThreadPool-30] INFO  com.revature.main.Driver - 
+A token has been built, returning said token. [JWT Service Layer]
+
+30 03 2022 - 23:19:51.695 [JettyServerThreadPool-19] INFO  com.revature.main.Driver - 
+Login endpoint has been successfully invoked.
+Path: /login
+Login DTO val -> USER : usertom Pass : password
+Login user val : User{id=3, user='usertom', pass='null', firstName='null', lastName='null', email='tb@tb.tb', userRoleId=0, userRole='Employee'}
+IP Address : [0:0:0:0:0:0:0:1]
+User Agent: PostmanRuntime/7.29.0
+
+30 03 2022 - 23:19:51.698 [JettyServerThreadPool-19] INFO  com.revature.main.Driver - 
+A token has been built, returning said token. [JWT Service Layer]
+
+30 03 2022 - 23:20:05.361 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Get All Reimbursements Endpoint has been invoked.
+Path: /reimbursements
+Header Names : [Date, Content-Type]
+IP Address : [0:0:0:0:0:0:0:1]
+User Agent: PostmanRuntime/7.29.0
+
+30 03 2022 - 23:20:05.362 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Attempting to parse given JWT token
+
+30 03 2022 - 23:20:05.406 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Parsing Successful! Returning token
+
+30 03 2022 - 23:20:05.406 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+AUTHORIZATION ATTACK HAS BEEN INITIATED! 
+A user is attempting to access an endpoint greater than their set permissions! 
+Current req method = GET
+
+30 03 2022 - 23:20:15.941 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Get All Reimbursements Endpoint has been invoked.
+Path: /reimbursements
+Header Names : [Date, Content-Type]
+IP Address : [0:0:0:0:0:0:0:1]
+User Agent: PostmanRuntime/7.29.0
+
+30 03 2022 - 23:20:15.941 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Attempting to parse given JWT token
+
+30 03 2022 - 23:20:15.944 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Parsing Successful! Returning token
+
+30 03 2022 - 23:20:15.944 [JettyServerThreadPool-22] INFO  java.sql.Driver - 
+Call to getAllReimbursements from the Service Layer
+
+30 03 2022 - 23:20:15.998 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Return all Reimbursements [DAO Layer]
+
+30 03 2022 - 23:20:16.001 [JettyServerThreadPool-22] INFO  java.sql.Driver - 
+Returning a list of Reimbursement DTOs
+
+30 03 2022 - 23:20:16.003 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Reimbursements have been displayed to screen
+
+30 03 2022 - 23:20:21.460 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Get All Reimbursements Endpoint has been invoked.
+Path: /pendingReimbursements
+Header Names : [Date, Content-Type]
+IP Address : [0:0:0:0:0:0:0:1]
+User Agent: PostmanRuntime/7.29.0
+
+30 03 2022 - 23:20:21.460 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Attempting to parse given JWT token
+
+30 03 2022 - 23:20:21.463 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Parsing Successful! Returning token
+
+30 03 2022 - 23:20:21.463 [JettyServerThreadPool-27] INFO  java.sql.Driver - 
+Call to getAllReimbursements from the Service Layer
+
+30 03 2022 - 23:20:21.511 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Return all Reimbursements [DAO Layer]
+
+30 03 2022 - 23:20:21.511 [JettyServerThreadPool-27] INFO  java.sql.Driver - 
+Returning a list of Reimbursement DTOs
+
+30 03 2022 - 23:20:21.511 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Reimbursements have been displayed to screen
+
+30 03 2022 - 23:20:38.936 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Attempting to parse given JWT token
+
+30 03 2022 - 23:20:38.938 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Parsing Successful! Returning token
+
+30 03 2022 - 23:20:38.938 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+AUTH Token has been successfully parsed and verified
+
+30 03 2022 - 23:20:39.007 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Answer a new Reimbursement [DAO Layer]
+
+30 03 2022 - 23:20:39.008 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - responseDTO has been displayed to screen
+30 03 2022 - 23:20:48.386 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Attempting to parse given JWT token
+
+30 03 2022 - 23:20:48.389 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Parsing Successful! Returning token
+
+30 03 2022 - 23:20:48.389 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+AUTH Token has been successfully parsed and verified
+
+30 03 2022 - 23:20:48.433 [JettyServerThreadPool-27] WARN  io.javalin.Javalin - Uncaught exception
+org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.
+	at org.postgresql.jdbc.PgResultSet.getRawValue(PgResultSet.java:3092)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2330)
+	at org.postgresql.jdbc.PgResultSet.getInt(PgResultSet.java:2779)
+	at com.revature.dao.ReimbursementDAO.answerReimbursement(ReimbursementDAO.java:200)
+	at com.revature.service.ReimbursementService.respondReimbursement(ReimbursementService.java:118)
+	at com.revature.controller.ReimbursementController.lambda$new$4(ReimbursementController.java:193)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:115)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:131)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+30 03 2022 - 23:20:56.503 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Attempting to parse given JWT token
+
+30 03 2022 - 23:20:56.505 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Parsing Successful! Returning token
+
+30 03 2022 - 23:20:56.505 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+AUTH Token has been successfully parsed and verified
+
+30 03 2022 - 23:20:56.552 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Answer a new Reimbursement [DAO Layer]
+
+30 03 2022 - 23:20:56.553 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - responseDTO has been displayed to screen
+30 03 2022 - 23:21:03.608 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Attempting to parse given JWT token
+
+30 03 2022 - 23:21:03.610 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Parsing Successful! Returning token
+
+30 03 2022 - 23:21:03.610 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+AUTH Token has been successfully parsed and verified
+
+30 03 2022 - 23:21:03.673 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - 
+Answer a new Reimbursement [DAO Layer]
+
+30 03 2022 - 23:21:03.674 [JettyServerThreadPool-27] INFO  com.revature.main.Driver - responseDTO has been displayed to screen
+30 03 2022 - 23:21:06.923 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Attempting to parse given JWT token
+
+30 03 2022 - 23:21:06.927 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Parsing Successful! Returning token
+
+30 03 2022 - 23:21:06.927 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+AUTH Token has been successfully parsed and verified
+
+30 03 2022 - 23:21:06.974 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - 
+Answer a new Reimbursement [DAO Layer]
+
+30 03 2022 - 23:21:06.975 [JettyServerThreadPool-22] INFO  com.revature.main.Driver - responseDTO has been displayed to screen
