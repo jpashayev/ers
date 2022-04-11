@@ -35,7 +35,7 @@ use vanilla JS, Java, & postgresql
 
 ## Getting Started
 * use "git clone <repo-link>" to clone the repo
-* setup schmea and a new SQLScript with ersSampleScript in postgres
+* setup schema and a new SQLScript with ersSampleScript in postgres
 * populate script with sample data
 * setup your env variables in environment variables
   - db_url - url of database
