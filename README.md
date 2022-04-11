@@ -5,7 +5,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Technologies Used
 * Java - v17.0.1
-* JDBC - v
+* Postgresql JDBC - v42.3.3
 * JJwt - v0.11.2
 * Javalin - v4.3.0
 * Jackson Databind - v2.13.2
