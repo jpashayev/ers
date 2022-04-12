@@ -49,11 +49,17 @@ use vanilla JS, Java, & postgresql
  ## Usage
   Use it for your employees to add a reimbursement claim with a picture attached. Claims can be made for services such as lodging, food, or other company reimbursements. Employees can view all, previous, & pending reimbursements. Managers can login to view all & pending reimbursements. They are allowed to review all the details for a reimbursement, and change the status to Accepted or Denied. Reimbursement updates for both employees & managers happen in realtime. When each user is finished they can logout.
  
+ ##Login
 ![ersLogin](https://user-images.githubusercontent.com/40347155/162830486-e96acc68-f460-4b98-a79f-a5312e40075e.JPG)
+ ##Employee - Previous 
 ![ersEmployeePrevious](https://user-images.githubusercontent.com/40347155/162830528-5c402034-d087-45d4-96d4-7e3d47cb9ff7.JPG)
+ ##Employee - Pending 
 ![ersEmployeePending](https://user-images.githubusercontent.com/40347155/162830533-4720e639-9480-46c2-a9a0-b6832ad31bf6.JPG)
+##Employee - All 
 ![ersEmployeeAll](https://user-images.githubusercontent.com/40347155/162830539-0128345c-cd40-4ea2-a8d7-74ab6ab32f07.JPG)
+##Manager - Previous 
 ![ersManagerPending](https://user-images.githubusercontent.com/40347155/162830550-504adf76-67f0-45e3-a897-e1bd986110fb.JPG)
+ ##Manager - All 
 ![ersManagerAll](https://user-images.githubusercontent.com/40347155/162830567-f0873dc9-5e9c-47e4-b4c4-567c86a1a763.JPG)
  
  ## Contributors
